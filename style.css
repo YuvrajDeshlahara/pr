@@ -1,0 +1,54 @@
+.cont {
+    display: grid;
+    grid-template-areas:
+        'main main main main main main'
+        'footer footer footer footer footer footer';
+
+
+}
+
+
+
+
+
+.main {
+    grid-area: main;
+
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    grid-area: footer;
+
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+div img {
+    height: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+div img {
+    height: 230px;
+}
+
+.final {
+
+    height: 300px;
+
+}
+
+.fnl1 {
+    height: 90px;
+}
